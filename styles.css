@@ -76,10 +76,13 @@ body {
   border: 1px solid #4d7298;
   border-radius: 10px;
   width: 500px;
+  display: flex;
 }
 
 .card-text-wrapper {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img {
@@ -92,6 +95,7 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
+  margin-top: auto;
 }
 /*  ---- end exercise 4 ----  */
 
