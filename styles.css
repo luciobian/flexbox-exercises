@@ -101,10 +101,14 @@ body {
 
 /*  ---- start exercise 5 ----  */
 .tags {
-  width: 800px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tags li {
+  list-style: none;
   padding: 6px;
   margin: 6px;
   background-color: rgb(111, 41, 97);
