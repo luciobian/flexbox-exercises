@@ -56,6 +56,13 @@ body {
   height: 150px;
   width: 150px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-3 > .child-3 {
+  margin-top: auto;
 }
 
 /*  ---- end exercise 3 ----  */
